@@ -43,16 +43,8 @@ _methods.addComment = function(commentData,state){
 	
 	_comments.push(commentData);
 
-	if(state){
-		var arr = _comments.reduce(function(a,b){
-	        if (a.indexOf(b) < 0 ) a.push(b);
-	        return a;
-	    },[]);
-	    _comments = arr;
-
+	if(state)
 		localforage.setItem('comments', _comments);
-	}
-	
 }
 //getimg all comments
 _methods.getComments = function(){
