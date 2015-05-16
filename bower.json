@@ -1,0 +1,22 @@
+{
+  "name": "react-comments",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bogvsdev/react-comments",
+  "authors": [
+    "Bogdan Dever <bogvsdev@gmail.com>"
+  ],
+  "description": "Simple and fast comments module created using ReactJS",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "localforage": "~1.2.3",
+    "mcfly": "~0.0.10",
+    "modernizr": "~2.8.3",
+    "normalize.css": "~3.0.3",
+    "react": "~0.13.3"
+  }
+}
