@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Simple and fast comments module created using ReactJS.",
   "dependencies": {
+  },
+  "devDependencies": {
     "gulp": "^3.8.11",
     "del": "^1.1.1",
     "gulp-react": "^3.0.1",

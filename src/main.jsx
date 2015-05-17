@@ -1,3 +1,4 @@
+(function(){
 var wait, _methods = {}, _comments = [], Store, Actions, Flux = new McFly();
 //initiation of db
 localforage.setDriver([localforage.INDEXEDDB, localforage.LOCALSTORAGE]);
@@ -127,3 +128,4 @@ var Comments = React.createClass({
 });
 
 React.render(<Comments/>, document.querySelector('.comment-block'));
+})();
